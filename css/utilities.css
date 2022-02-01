@@ -42,6 +42,33 @@
   color: #fff;
 }
 
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+.alert {
+  background: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+.alert i {
+  margin-right: 10px;
+}
+.alert-success {
+  background-color: var(--success-color);
+  color: #fff;
+}
+.alert-error {
+  background-color: var(--error-color);
+  color: #fff;
+}
+
 .bg-secondary,
 .btn-secondary {
   background-color: var(--secondary-color);
@@ -92,19 +119,19 @@
   grid-template-columns: repeat(3, 1fr);
 }
 /* Margin */
-.py-1 {
+.my-1 {
   margin: 1rem 0;
 }
-.py-2 {
+.my-2 {
   margin: 1.5rem 0;
 }
-.py-3 {
+.my-3 {
   margin: 2rem 0;
 }
-.py-4 {
+.my-4 {
   margin: 3rem 0;
 }
-.py-5 {
+.my-5 {
   margin: 4rem 0;
 }
 
